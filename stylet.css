@@ -1,0 +1,25 @@
+header{
+    overflow-x: hidden;
+}
+
+h1{
+    font-family: century gothic;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.video{
+    transform: translateY(30px);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    
+}
+video{
+    border-radius: 8px;
+    width: 400px;
+    
+}

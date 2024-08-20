@@ -1,0 +1,56 @@
+header{
+    overflow-x: hidden;
+}
+
+h1{
+    font-weight: 400;
+    font-family:century gothic ;
+    text-align: center;
+}
+p{
+    font-family: century gothic;
+    text-align: center;
+    font-size: 19px;
+
+}
+.filter-buttons{
+    position: relative;
+    padding: 15px;
+    background-color: rgba(255, 166, 0, 0.682);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #fff;
+    font-size: 18px;
+    border-radius:5px ;
+    cursor: pointer;
+}
+
+video{
+    border-radius: 8px;
+    width: 100%;
+}
+h2{
+    font-family: century gothic;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.video{
+    transform: translateY(30px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+.filter-buttons button:hover {
+    background-color: #0056b3;
+}
